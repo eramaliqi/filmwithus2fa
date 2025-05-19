@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#E6F0FA">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo_description"
+        android:layout_marginBottom="24dp"
+        android:elevation="6dp" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CINEVERSE"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#3A7BD5"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:letterSpacing="0.1" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:text="@string/home"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7EB8F0"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="20dp"
+        android:elevation="4dp"
+        android:stateListAnimator="@null" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:text="@string/profile"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7EB8F0"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="20dp"
+        android:elevation="4dp"
+        android:stateListAnimator="@null" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:text="@string/logout"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7EB8F0"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="4dp"
+        android:stateListAnimator="@null" />
+
+</LinearLayout>

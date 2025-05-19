@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#212121"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/editTextDirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Director"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#212121"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#212121"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="number"
+        android:textColor="#212121"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/editTextDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration (minutes)"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="number"
+        android:textColor="#212121"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/editTextWatchedMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Watched Minutes"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="14dp"
+        android:layout_marginBottom="24dp"
+        android:inputType="number"
+        android:textColor="#212121"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/btnSaveMovie"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Save"
+        android:backgroundTint="#0288d1"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium" />
+</LinearLayout>
