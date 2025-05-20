@@ -63,3 +63,4 @@ Ky aplikacion është krijuar për dashamirët e filmave që duan të:
 2. Elvira Metaj
 3. Ema Zeqiri
 4. Elonita Krasniqi
+5. Elda Reçica
